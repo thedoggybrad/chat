@@ -29,4 +29,5 @@ Powered by OpenAI ChatGPT API and Davinci ChatGPT model
 [MIT License]
 
 ## Images
-![Alt text](image link)
+![1](https://thedoggybrad.github.io/chat/1.jpg)
+![2](https://thedoggybrad.github.io/chat/2.jpg)
