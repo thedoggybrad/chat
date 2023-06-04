@@ -23,7 +23,10 @@ TheDoggyBrad Chat can do anything, and much more—often with fewer instructions
 <br>
 •GPT Version: ChatGPT 3.5
 <br>
-•Limitations: No Feelings/Expressions, Limited understanding of greetings and expressions (you might need to put "!" to be recognized as an expression or greeting, Cannot remember previous conversation (due to use of API and use of browser cache instead of accounts/database)
+•Limitations: <br>
+✓No Feelings/Expressions<br> 
+✓Limited understanding of greetings and expressions (you might need to put "!" to be recognized as an expression or greeting<br>
+✓Cannot remember previous conversation (due to use of API and use of browser cache instead of accounts/database)
 
 ## Copyright
 ©TheDoggyBrad. All Rights Reserved.
