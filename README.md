@@ -1,6 +1,12 @@
 # TheDoggyBrad Chat
 Welcome to the new Artificial Intelligence chatbot by TheDoggyBrad, where you can ask the questions you all have.
 
+## Try it!
+[Click here to try it!](https://thedoggybrad.github.io/chat/chatsystem)
+
+## Main Page
+[Main Page](https://thedoggybrad.github.io/chat)
+
 ## Introduction
 TheDoggyBrad Chat can do anything, and much more—often with fewer instructions. It is able to solve logic problems, determine cause and effect, understand the intent of text, produce creative content, explain character motives, and handle complex summarization tasks.
 
