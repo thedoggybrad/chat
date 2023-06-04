@@ -35,5 +35,5 @@ Powered by OpenAI ChatGPT API and Davinci ChatGPT model
 This software uses the standard [MIT License](https://github.com/thedoggybrad/chat/blob/main/LICENSE).
 
 ## Images
-![1](https://thedoggybrad.github.io/chat/1.jpg)
-![2](https://thedoggybrad.github.io/chat/2.jpg)
+![1](https://thedoggybrad.github.io/chat/1.jpg/)
+![2](https://thedoggybrad.github.io/chat/2.jpg/)
