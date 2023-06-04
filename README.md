@@ -26,7 +26,7 @@ This software is not affiliated with ChatGPT and OpenAI.<br>
 Powered by OpenAI ChatGPT API and Davinci ChatGPT model
 
 ## License 
-[MIT License]
+This software uses the standard [MIT License](https://github.com/thedoggybrad/chat/blob/main/LICENSE).
 
 ## Images
 ![1](https://thedoggybrad.github.io/chat/1.jpg)
