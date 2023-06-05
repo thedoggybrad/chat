@@ -26,7 +26,8 @@ TheDoggyBrad Chat can do anything, and much more—often with fewer instructions
 •Limitations: <br>
 ✓No Feelings/Expressions<br> 
 ✓Limited understanding of greetings and expressions (you might need to put "!" to be recognized as an expression or greeting<br>
-✓Cannot remember previous conversation (due to use of API and use of browser cache instead of accounts/database)
+✓Cannot remember previous conversation (due to use of API and use of browser cache instead of accounts/database)<br>
+✓More often, it continues your phrase. So better to complete your statement for the AI to understand you.
 
 ## Copyright
 ©TheDoggyBrad. All Rights Reserved.
