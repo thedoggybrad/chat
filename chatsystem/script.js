@@ -5,7 +5,7 @@ const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
 let userText = null;
-const API_KEY = "USEYOUROWNIFYOuFORKEDTHISORUSEHIDDENKEYONMYSITE";
+const API_KEY = "USE_YOUR_OWN_API_KEY";
 
 const loadDataFromLocalstorage = () => {
     // Load saved chats and theme from local storage and apply/add on the page
@@ -17,7 +17,7 @@ const loadDataFromLocalstorage = () => {
     const defaultText = `<div class="default-text">
                             <h1>TheDoggyBrad Chat</h1>
                             <p>Start a conversation and explore the power of ChatGPT's AI.<br> Your chat history will be displayed here and can be easily be deleted.</p> 
-                            <p>Limitation: 2048 Character per response</p> 
+                            <p>Limitation: 2500 Characters per response</p> 
                         </div>`
 
     chatContainer.innerHTML = localStorage.getItem("all-chats-thedoggybrad") || defaultText;
@@ -33,7 +33,7 @@ const createChatElement = (content, className) => {
 }
 
 const getChatResponse = async (incomingChatDiv) => {
-    const API_URL = "https://api.openai.com/v1/completions";
+    const API_URL = "https://api.openai.com/v1/chat/completions"; 
     const pElement = document.createElement("p");
 
     // Define the properties and data for the API request
@@ -44,10 +44,12 @@ const getChatResponse = async (incomingChatDiv) => {
             "Authorization": `Bearer ${API_KEY}`
         },
         body: JSON.stringify({
-            model: "text-davinci-003",
-            prompt: userText,
-            max_tokens: 2048,
-            temperature: 0.2,
+            model: "gpt-3.5-turbo",
+            messages: [{role: "user", content: `${userText}`}], 
+            max_tokens: 2500,
+            temperature: 0.3,
+            presence_penalty: 1.0,
+            frequency_penalty: 1.0,
             n: 1,
             stop: null
         })
@@ -56,7 +58,7 @@ const getChatResponse = async (incomingChatDiv) => {
     // Send POST request to API, get response and set the reponse as paragraph element text
     try {
         const response = await (await fetch(API_URL, requestOptions)).json();
-        pElement.textContent = response.choices[0].text.trim();
+        pElement.textContent = response.choices[0].message.content.trim(); 
     } catch (error) { // Add error class to the paragraph element and set error text
         pElement.classList.add("error");
         pElement.textContent = "Oops! Something went wrong while retrieving the response. Please try again.";
@@ -68,7 +70,6 @@ const getChatResponse = async (incomingChatDiv) => {
     localStorage.setItem("all-chats-thedoggybrad", chatContainer.innerHTML);
     chatContainer.scrollTo(0, chatContainer.scrollHeight);
 }
-
 const copyResponse = (copyBtn) => {
     // Copy the text content of the response to the clipboard
     const reponseTextElement = copyBtn.parentElement.querySelector("p");
