@@ -8,7 +8,7 @@ Welcome to the new Artificial Intelligence chatbot by TheDoggyBrad, where you ca
 [Main Page](https://thedoggybrad.github.io/chat)
 
 ## Introduction
-TheDoggyBrad Chat can do anything, and much more—often with fewer instructions. It is able to solve logic problems, determine cause and effect, understand the intent of text, produce creative content, explain character motives, and handle complex summarization tasks.
+TheDoggyBrad Chat can do anything, and much more—often with fewer instructions. It is able to solve logic problems, determine cause and effect, understand the intent of text, produce creative content, explain character motives, and handle complex summarization tasks. But..... wait this is optimized to avoid the chatbot to produce randomized results and repetitive results. This could be possibly better than ChatGPT (in some areas).
 
 ## More Information (ChatGPT Model used)
 •Model Name: GPT 3.5 Turbo (Continuously Updated Version)
