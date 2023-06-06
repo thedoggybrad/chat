@@ -1,3 +1,4 @@
+<img src="chatsystem/images/chatbot.jpg" alt="LOGO" width="64"  height="64">
 # TheDoggyBrad Chat
 Welcome to the new Artificial Intelligence chatbot by TheDoggyBrad, where you can ask the questions you all have.
 
