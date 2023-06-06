@@ -41,7 +41,7 @@ This software uses the standard [MIT License](https://github.com/thedoggybrad/ch
 ## What data is collected?
 For the side of TheDoggyBrad, nothing as in zero.
 <br>
-For the side of OpenAI, please read their own privacy policy on https://openai.com/policies/privacy-policy , its data processing rules on https://openai.com/policies/data-processing-addendum and API Data usage on https://openai.com/policies/api-data-usage-policies
+For the side of OpenAI, please read their own privacy policy on (https://openai.com/policies/privacy-policy)[https://openai.com/policies/privacy-policy], its data processing rules on https://openai.com/policies/data-processing-addendum and API Data usage on https://openai.com/policies/api-data-usage-policies
 <br>
 For the side of Github Pages and Github, they may collect some analytical data that they can use to check who visit this software using the Github and Github Pages. For Github's privacy statement, please visit https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement for more details.
 
