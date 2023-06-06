@@ -19,9 +19,9 @@ TheDoggyBrad Chat can do anything, and much more—often with fewer instructions
 <br>
 •Training Data: Up to September 2021
 <br>
-•Description: Most capable model and can do any language task with better quality, longer output, and consistent instruction-following. Also supports some additional features such as inserting text.
+•Description: The most capable model and can do any language task with better quality, longer output, and consistent instruction-following. Also supports some additional features such as inserting text.
 <br>
-•GPT Version: ChatGPT 3.5
+•GPT Version: ChatGPT 3.5 (Turbo)
 <br>
 •Limitations: <br>
 ✓2500 Maximum Characters per Response<br>
