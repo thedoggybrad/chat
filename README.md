@@ -15,7 +15,7 @@ TheDoggyBrad Chat can do anything, and much more—often with fewer instructions
 <br>
 •Internal Name: gpt-3.5-turbo
 <br>
-•Maximum Characters per Response: 2500 Characters
+•Maximum Characters per Response: 2500 Characters (To prevent API abuse)
 <br>
 •Training Data: Up to September 2021
 <br>
