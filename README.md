@@ -38,6 +38,13 @@ Powered by OpenAI ChatGPT API and GPT 3.5 Turbo model
 ## License 
 This software uses the standard [MIT License](https://github.com/thedoggybrad/chat/blob/main/LICENSE).
 
+## What data is collected?
+For the side of TheDoggyBrad, nothing as in zero.
+<br>
+For the side of OpenAI, please read their own privacy policy on https://openai.com/policies/privacy-policy ,its data processing rules on https://openai.com/policies/data-processing-addendum and API Data usage on https://openai.com/policies/api-data-usage-policies
+<br>
+For the side of Github Pages and Github, they may collect some analytical data that they can use to check who visit this software using the Github and Github Pages.
+
 ## Images
 ![1](https://thedoggybrad.github.io/chat/1.jpg)
 Note: This software does not include Grammarly, which is my chrome extension being included in the screenshot. I am talking about the "G" in a green circle.
