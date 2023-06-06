@@ -38,3 +38,4 @@ This software uses the standard [MIT License](https://github.com/thedoggybrad/ch
 
 ## Images
 ![1](https://thedoggybrad.github.io/chat/1.jpg)
+Note: This software does not include Grammarly, which is my chrome extension being included in the screenshot. I am talking about the G in a green circle.
