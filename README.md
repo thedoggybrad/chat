@@ -40,4 +40,3 @@ This software uses the standard [MIT License](https://github.com/thedoggybrad/ch
 
 ## Images
 ![1](https://thedoggybrad.github.io/chat/1.jpg)
-![2](https://thedoggybrad.github.io/chat/2.jpg)
