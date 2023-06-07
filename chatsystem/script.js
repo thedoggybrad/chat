@@ -4,8 +4,25 @@ const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
+// Chooses The API Key (Random) - START
+function getRandomItem(arr) {
+
+    // get random index value
+    const randomIndex = Math.floor(Math.random() * arr.length);
+
+    // get random item
+    const item = arr[randomIndex];
+
+    return item;
+}
+
+const array = ['API KEY/S HERE']; 
+
+const result = getRandomItem(array);
+// Chooses The API Key (Random) - END
+
 let userText = null;
-const API_KEY = "USE_YOUR_OWN_API_KEY"; 
+const API_KEY = result; 
 // If you changed the link to use this file, according to the instructions in the index.html file, please input your API key here
 
 const loadDataFromLocalstorage = () => {
@@ -19,6 +36,7 @@ const loadDataFromLocalstorage = () => {
                             <h1>TheDoggyBrad Chat</h1>
                             <p>Start a conversation and explore the power of ChatGPT's AI.<br> Your chat history will be displayed here and can be easily be deleted.</p> 
                             <p>Limitation: 2500 Characters per response</p> 
+                            <p>Note: Refresh using the button below, if the chatbot failed to produce a response and try again</p>
                         </div>`
 
     chatContainer.innerHTML = localStorage.getItem("all-chats-thedoggybrad") || defaultText;
@@ -62,7 +80,7 @@ const getChatResponse = async (incomingChatDiv) => {
         pElement.textContent = response.choices[0].message.content.trim(); 
     } catch (error) { // Add error class to the paragraph element and set error text
         pElement.classList.add("error");
-        pElement.textContent = "Oops! Something went wrong while retrieving the response. Please try again.";
+        pElement.textContent = "Oops! Something went wrong while retrieving the response. Refresh the page and please try again.";
     }
 
     // Remove the typing animation, append the paragraph element and save the chats to local storage
@@ -88,6 +106,8 @@ const showTypingAnimation = () => {
                             <div class="typing-dot" style="--delay: 0.2s"></div>
                             <div class="typing-dot" style="--delay: 0.3s"></div>
                             <div class="typing-dot" style="--delay: 0.4s"></div>
+                            <div class="typing-dot" style="--delay: 0.5s"></div>
+                            <div class="typing-dot" style="--delay: 0.6s"></div>
                         </div>
                     </div>
                     <span onclick="copyResponse(this)" class="material-symbols-rounded">content_copy</span>
