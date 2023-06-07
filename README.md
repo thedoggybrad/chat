@@ -36,7 +36,7 @@ This software is not affiliated with ChatGPT and OpenAI.<br>
 Powered by OpenAI ChatGPT API and GPT 3.5 Turbo model
 
 ## License 
-This software uses the standard [MIT License](https://github.com/thedoggybrad/chat/blob/main/LICENSE).
+This software uses the [TheDoggyBrad Chat License](https://github.com/thedoggybrad/chat/blob/main/LICENSE.MD).
 
 ## Terms for "Fair" Usage
 Since this is an open-source project dedicated to the public domain, I want everyone to be fair to every users of this software. Here are my own set of conditions to use this software fairly:<br>
