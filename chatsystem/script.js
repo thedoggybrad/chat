@@ -16,7 +16,7 @@ function getRandomItem(arr) {
     return item;
 }
 
-const array = ['API KEY/S HERE']; 
+const array = ['API KEY 1 HERE', 'API KEY 2 HERE', 'API KEY 3 AND SO ON.. HERE']; 
 
 const result = getRandomItem(array);
 // Chooses The API Key (Random) - END
