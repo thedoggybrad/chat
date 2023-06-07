@@ -13,7 +13,7 @@ Welcome to the new Artificial Intelligence chatbot by TheDoggyBrad, where you ca
 TheDoggyBrad Chat can do anything, and much more—often with fewer instructions. It is able to solve logic problems, determine cause and effect, understand the intent of text, produce creative content, explain character motives, and handle complex summarization tasks. But..... wait this is optimized to avoid the chatbot to produce randomized results and repetitive results. This could be possibly better than ChatGPT (in some areas).
 
 ## Features
-✓Ready for mass usage (With 20 API Keys used in thedoggybrad.github.io/chat/chatsystem)
+✓Ready for mass usage (20 API Keys are used in thedoggybrad.github.io/chat)
 <br>
 ✓Friendly for those who will fork this software
 <br>
@@ -64,6 +64,5 @@ That's all, I do not have anything special in my terms and conditions for using 
 <br>
 ✓For the side of Github Pages and Github, they may collect some analytical data that they can use to check who visit this software using the Github and Github Pages. For Github's privacy statement, please visit https://docs.github.com/en/site-policy/privacy-policies/github-privacy-statement for more details.
 
-## Images
-![1](https://thedoggybrad.github.io/chat/1.jpg)
-![2](https://thedoggybrad.github.io/chat/2.jpg)
+## Screenshot
+![img](https://thedoggybrad.github.io/chat/img.jpg)
