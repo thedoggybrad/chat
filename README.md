@@ -36,7 +36,8 @@ TheDoggyBrad Chat can do anything, and much more—often with fewer instructions
 <br>
 •Limitations: <br>
 ✓2500 Maximum Characters per Response<br>
-✓Cannot remember previous conversation (due to use of API and use of browser cache instead of accounts/database)
+✓Cannot remember previous conversation (due to use of API and use of browser cache instead of accounts/database)<br>
+✓May produce inaccurate, wrong or inappropriate content or results (No computer program is perfect!)
 
 ## Copyright
 ©TheDoggyBrad. All Rights Reserved.
