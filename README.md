@@ -41,8 +41,7 @@ This software uses the [TheDoggyBrad Chat License](https://github.com/thedoggybr
 ## Possible Problems
 Q: What if I get "Oops! Something went wrong while retrieving the response. Refresh the page and please try again."?
 <br>
-A: Simple, just refresh the page and re-enter your input. The refresh will change the API key you are using via a randomizer. Just use the refresh button on after the delete button. This software uses multiple API keys (if you use my software hosted on Github, if not it will be singular).
-<br><br>   
+A: Simple, just refresh the page and re-enter your input. The refresh will change the API key you are using via a randomizer. Just use the refresh button on after the delete button. This software uses multiple API keys (if you use my software hosted on Github, if not it will be singular).  
 
 ## Terms for "Fair" Usage
 Since this is an open-source project dedicated to the public domain, I want everyone to be fair to every users of this software. Here are my own set of conditions to use this software fairly:<br>
