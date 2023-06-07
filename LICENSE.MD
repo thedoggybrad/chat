@@ -12,7 +12,7 @@ Copyright © 2023 - Present (TheDoggyBrad)
 
 6.) For the part of Google who owns Google Fonts, please visit https://creativecommons.org/licenses/by-sa/4.0/ and https://fonts.google.com/knowledge/glossary/licensing to know more about their open source licenses.
 
-7.) For the part of Twitter who owns BootStrap, please visit their open source license here https://getbootstrap.com/docs/4.0/about/license/
+7.) For the part of Twitter who owns BootStrap, please visit their open source license here https://getbootstrap.com/docs/4.0/about/license/ and even it is modified by the author, the author had decided to retain the same open source license used by Twitter.
 
 8.) For other parties, please read their own licenses and policies under the sections 5 to 7.
 
