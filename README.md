@@ -40,8 +40,7 @@ This software uses the standard [MIT License](https://github.com/thedoggybrad/ch
 
 ## Terms for "Fair" Usage
 Since this is an open-source project dedicated to the public domain, I want everyone to be fair to every users of this software. Here are my own set of conditions to use this software fairly:<br>
-1.) Everyone must not abuse my API access key. It is limited to 2500 maximum tokens. Abuse may cause the software to not produce any results in a minute or more (potentially the API key may be blocked).<br>
-2.) Do not use my own "API Key", to not cause any problems to the users of this software. It is a free API Key, not paid so it has some limits. Yes, it is in public but it is hidden and not hosted here in Github. Use your own instead if you already forked this software and not using the original one I host in my repository (thedoggybrad/chat).<br>
+1.) Everyone must not abuse or misuse this software especially that this software uses the author's API keys (unless you forked the project and used your own API keys). <br>
 That's all, I do not have anything special in my terms and conditions for using this software. I do not just wanted this software's API key to be abused.
 
 ## What data is collected?
