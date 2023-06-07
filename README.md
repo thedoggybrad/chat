@@ -38,6 +38,11 @@ Powered by OpenAI ChatGPT API and GPT 3.5 Turbo model
 ## License 
 This software uses the [TheDoggyBrad Chat License](https://github.com/thedoggybrad/chat/blob/main/LICENSE.MD).
 
+## Possibly Asked Questions (PAQs)
+Q: What if I get "Oops! Something went wrong while retrieving the response. Refresh the page and please try again."
+<br>
+A: Simple, just refresh the page and re-enter your input. The refresh will change the API key you are using via a randomizer. Just use the refresh button on after the delete button.
+
 ## Terms for "Fair" Usage
 Since this is an open-source project dedicated to the public domain, I want everyone to be fair to every users of this software. Here are my own set of conditions to use this software fairly:<br>
 1.) Everyone must not abuse or misuse this software especially that this software uses the author's API keys (unless you forked the project and used your own API keys). <br>
