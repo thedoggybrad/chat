@@ -2,6 +2,12 @@ MIT License
 
 Copyright (c) 2023 TheDoggyBrad Chat (Software) and TheDoggyBrad (Entity)
 
+
+This license is applicable only to the source codes hosted here in Github. Third party links like Bootstrap and my custom script.js that includes my API keys are not covered by MIT License. 
+
+The script.js file here in this repository is covered by this license but the one linked in my index.html file is a proprietary code by TheDoggyBrad.
+
+
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
 in the Software without restriction, including without limitation the rights
