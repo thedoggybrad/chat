@@ -44,32 +44,7 @@ display: block;
   width: 64px;
   height: 64px;
 }
-</style>
-
-
-<div class=headers><br>
-<img src="chatsystem/images/chatbot.jpg" alt="LOGO" class="imgcenter" width="64"  height="64"> 
-<h1><b>TheDoggyBrad Chat</b></h1><br>
-<h3>Welcome to the new Artificial Intelligence chatbot by TheDoggyBrad, where you can ask the questions you all have.</h3>
-</div>
-<br>
-<h2>Try TheDoggyBrad Chat</h2>
-<p>TheDoggyBrad Chat can do anything, and much more—often with fewer instructions. It is able to solve logic problems, determine cause and effect, understand the intent of text, produce creative content, explain character motives, and handle complex summarization tasks. But..... wait this is optimized to avoid the chatbot to produce randomized results and repetitive results. This could be possibly better than ChatGPT (in some areas).</p>
-<form action="chatsystem">
-    <input class="button1" type="submit" value="Try it now!" />
-</form>
-<img id="myImg" src="img.jpg" alt="img" style="max-width:98%; min-width:300px; height: auto; object-fit: scale-down;">
- <!-- The Modal -->
-<div id="myModal" class="modal">
-
-  <!-- The Close Button -->
-  <span class="close">&times;</span>
-
-  <!-- Modal Content (The Image) -->
-  <img class="modal-content" id="img01">
-</div>
-<style>
-/* Style the Image Used to Trigger the Modal */
+ /* Style the Image Used to Trigger the Modal */
 #myImg {
   border-radius: 5px;
   cursor: pointer;
@@ -97,7 +72,7 @@ display: block;
 .modal-content {
   margin: auto;
   display: block;
-  width: 80%;
+  width: 90%;
   max-width: 700px;
 }
 
@@ -150,28 +125,29 @@ display: block;
 }
 </style>
 
-<script>
-// Get the modal
-var modal = document.getElementById("myModal");
 
-// Get the image and insert it inside the modal - use its "alt" text as a caption
-var img = document.getElementById("myImg");
-var modalImg = document.getElementById("img01");
-var captionText = document.getElementById("caption");
-img.onclick = function(){
-  modal.style.display = "block";
-  modalImg.src = this.src;
-  captionText.innerHTML = this.alt;
-}
+<div class=headers><br>
+<img src="chatsystem/images/chatbot.jpg" alt="LOGO" class="imgcenter" width="64"  height="64"> 
+<h1><b>TheDoggyBrad Chat</b></h1><br>
+<h3>Welcome to the new Artificial Intelligence chatbot by TheDoggyBrad, where you can ask the questions you all have.</h3>
+</div>
+<br>
+<h2>Try TheDoggyBrad Chat</h2>
+<p>TheDoggyBrad Chat can do anything, and much more—often with fewer instructions. It is able to solve logic problems, determine cause and effect, understand the intent of text, produce creative content, explain character motives, and handle complex summarization tasks. But..... wait this is optimized to avoid the chatbot to produce randomized results and repetitive results. This could be possibly better than ChatGPT (in some areas).</p>
+<form action="chatsystem">
+    <input class="button1" type="submit" value="Try it now!" />
+</form>
+<img id="myImg" src="img.jpg" alt="img" style="max-width:98%; min-width:300px; height: auto; object-fit: scale-down;">
+ <!-- The Modal -->
+<div id="myModal" class="modal">
 
-// Get the <span> element that closes the modal
-var span = document.getElementsByClassName("close")[0];
+  <!-- The Close Button -->
+  <span class="close">&times;</span>
 
-// When the user clicks on <span> (x), close the modal
-span.onclick = function() {
-  modal.style.display = "none";
-}
-</script>
+  <!-- Modal Content (The Image) -->
+  <img class="modal-content" id="img01">
+</div>
+
 <br><br>
  <h2>Features</h2>
 <p>✓Ready for mass usage (20 API Keys are used in thedoggybrad.github.io/chat)
@@ -228,6 +204,29 @@ That's all, I do not have anything special in my terms and conditions for using 
   <p>This software is not affiliated with ChatGPT and OpenAI.<br>Powered by OpenAI ChatGPT API and GPT 3.5 Turbo model</p>
   <p>Licensed under <a href="https://github.com/thedoggybrad/chat/blob/main/LICENSE.MD">TheDoggyBrad Chat License</a></p>
  </footer>
+ 
+ <script>
+ // Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the image and insert it inside the modal - use its "alt" text as a caption
+var img = document.getElementById("myImg");
+var modalImg = document.getElementById("img01");
+var captionText = document.getElementById("caption");
+img.onclick = function(){
+  modal.style.display = "block";
+  modalImg.src = this.src;
+  captionText.innerHTML = this.alt;
+}
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("close")[0];
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+ </script>
 
 </body>
 </html>
