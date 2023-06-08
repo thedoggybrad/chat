@@ -21,7 +21,7 @@ To everyone far and near<br><br>
 
 Merry Christmas, Merry Christmas<br>
 Let's decorate the tree<br>
-With lights that twinkle bright like stars<br>  
+With lights that twinkle bright like stars<br>
 For all the world to see<br><br>
 
 Merry Christmas, Merry Christmas<br>
