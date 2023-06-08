@@ -4,22 +4,7 @@ const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
-// Chooses The API Key (Random) - START
-function getRandomItem(arr) {
-
-    // get random index value
-    const randomIndex = Math.floor(Math.random() * arr.length);
-
-    // get random item
-    const item = arr[randomIndex];
-
-    return item;
-}
-
-const array = ['API KEY 1 HERE', 'API KEY 2 HERE', 'API KEY 3 AND SO ON.. HERE']; 
-
-const result = getRandomItem(array);
-// Chooses The API Key (Random) - END
+// The API KEY is in a secret file here in Github
 
 let userText = null;
 const API_KEY = result; 
