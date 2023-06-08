@@ -39,49 +39,49 @@ In our hearts each and every day  <br><br>
 (Chorus x2)
 
 ## Give me a code for a PHP Based Contact Form
-Here is a basic PHP code for a contact form:<br><br><br>
+Here is a basic PHP code for a contact form:<br><br>
 
-```<br>
-<?php<br>
-if(isset($_POST['submit'])){<br>
-    $name = $_POST['name'];<br>
-    $email = $_POST['email'];<br>
-    $message = $_POST['message'];<br><br>
+```
+<?php
+if(isset($_POST['submit'])){
+    $name = $_POST['name'];
+    $email = $_POST['email'];
+    $message = $_POST['message'];
 
-    $to = "youremail@example.com";<br>
-    $subject = "New Contact Form Submission";<br><br>
+    $to = "youremail@example.com";
+    $subject = "New Contact Form Submission";
     
-    // Email headers<br>
-    $headers .= 'From: '.$name.' <'.$email.'>' . "\r\n" .<br>
-        'Reply-To: '.$email.'' . "\r\n" .<br>
-        'X-Mailer: PHP/' . phpversion();<br><br>
+    // Email headers
+    $headers .= 'From: '.$name.' <'.$email.'>' . "\r\n" .
+        'Reply-To: '.$email.'' . "\r\n" .
+        'X-Mailer: PHP/' . phpversion();
 
-   // Email body<br>
-   $body .= "Name: ".$name."\n";<br>
-   $body .= "Email: ".$email."\n";<br>
-   $body .= "Message:\n".$message;<br><br>
+   // Email body
+   $body .= "Name: ".$name."\n";
+   $body .= "Email: ".$email."\n";
+   $body .= "Message:\n".$message;
 
-  // Send email using mail() function<br>
-  if(mail($to, $subject, $body, $headers)){<br>
-      echo "<p>Your message has been sent successfully!</p>";<br>
-  } else {<br>
-      echo "<p>There was an error sending your message. Please try again later.</p>";<br>
-  }<br>
-}<br>
-?><br><br>
+  // Send email using mail() function
+  if(mail($to, $subject, $body, $headers)){
+      echo "<p>Your message has been sent successfully!</p>";
+  } else {
+      echo "<p>There was an error sending your message. Please try again later.</p>";
+  }
+}
+?>
 
-<form method="post"><br>
-  <label>Name:</label><br>
-  <input type="text" name="name"><br><br>
+<form method="post">
+  <label>Name:</label>
+  <input type="text" name="name"]
 
-  <label>Email:</label><br>
-  <input type="email" name="email"><br><br>
+  <label>Email:</label>
+  <input type="email" name="email">
 
   <label>Message:</label><br>
-  <textarea name="message"></textarea><br>
+  <textarea name="message"></textarea>
 
-<input type="submit" name="submit" value="Submit"><br>
-</form><br>
+<input type="submit" name="submit" value="Submit">
+</form>
 ```<br><br><br>
 
 Note that this is just a basic example and you may need to modify it to fit your specific needs (e.g. adding validation or additional fields). Also make sure to replace `youremail@example.com` with the actual email address where you want to receive the messages.
