@@ -83,6 +83,6 @@ if(isset($_POST['submit'])){
 <input type="submit" name="submit" value="Submit">
 </form>
 ```
-<br><br><br>
+<br>
 
 Note that this is just a basic example and you may need to modify it to fit your specific needs (e.g. adding validation or additional fields). Also make sure to replace `youremail@example.com` with the actual email address where you want to receive the messages.
