@@ -4,11 +4,11 @@ const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
-// The API KEY is in a secret file 
+// The API KEY is in an encrypted file, the unecrypted version is also available in the same directory but with no API keys installed
+// If you fork this and want to use your own api key, remember to just follow the instructions in the index.html file
 
 let userText = null;
 const API_KEY = result; 
-// If you changed the link to use this file, according to the instructions in the index.html file, please input your API key here
 
 const loadDataFromLocalstorage = () => {
     // Load saved chats and theme from local storage and apply/add on the page
