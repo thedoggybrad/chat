@@ -1,4 +1,4 @@
-//This is the unecrypted version of the file with no API Keys installed - For local machine use
+// This is the unecrypted version of the file with no API Keys installed - For local machine use
 
 // Chooses The API Key (Random) - START
 function getRandomItem(arr) {
