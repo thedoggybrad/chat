@@ -52,7 +52,7 @@ const getChatResponse = async (incomingChatDiv) => {
             messages: [{role: "user", content: `${userText}`}], 
             max_tokens: 2500,
             temperature: 0.3,
-            top_p: 0.5,
+            top_p: 0.2,
             presence_penalty: 1.0,
             frequency_penalty: 1.0,
             n: 1,
