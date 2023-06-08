@@ -1,7 +1,7 @@
 # TheDoggyBrad Chat's outputs
 Here is a file showcasing some of the generated and works of TheDoggyBrad Chat
 
-## Provide a lyrics of Merry Christmas
+## Provide the lyrics of Merry Christmas
 Merry Christmas, Merry Christmas<br>
 Let's sing a happy song<br>
 With joy and laughter all around us<br>
