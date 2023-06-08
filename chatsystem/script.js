@@ -4,7 +4,7 @@ const chatContainer = document.querySelector(".chat-container");
 const themeButton = document.querySelector("#theme-btn");
 const deleteButton = document.querySelector("#delete-btn");
 
-// The API KEY is in a secret file here in Github
+// The API KEY is in a secret file 
 
 let userText = null;
 const API_KEY = result; 
