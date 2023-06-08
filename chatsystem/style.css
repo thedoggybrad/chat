@@ -161,7 +161,7 @@ span.material-symbols-rounded {
 }
 .typing-container .typing-content {
   display: flex;
-  max-width: 950px;
+  max-width: 1200px;
   width: 100%;
   align-items: flex-end;
 }
