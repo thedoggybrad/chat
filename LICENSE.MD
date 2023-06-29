@@ -1,5 +1,5 @@
 TheDoggyBrad Chat License
-Copyright © 2023 - Present (TheDoggyBrad)
+Copyright (c) 2022-2023 TheDoggyBrad and Copyright (c) 2023-Today TheDoggyBrad Software Lab
 
 
 1.) This license is applicable only to the source codes hosted here in Github. Third party links like Bootstrap, Google Fonts, GPT and my custom script.js that includes the author's own API keys are not covered by MIT License. 
