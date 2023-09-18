@@ -66,7 +66,7 @@ const getChatResponse = async (incomingChatDiv) => {
         pElement.textContent = response.choices[0].message.content.trim(); 
     } catch (error) { // Add error class to the paragraph element and set error text
         pElement.classList.add("error");
-        pElement.textContent = "Oops! Something went wrong while retrieving the response. Refresh the page and please try again.";
+        pElement.textContent = "The project's API keys expired, fork the project and use your own keys at <a href"https://github.com/thedoggybrad/chat>https://github.com/thedoggybrad/chat</a>.";
     }
 
     // Remove the typing animation, append the paragraph element and save the chats to local storage
