@@ -1,8 +1,8 @@
 ## Important
 The project's API keys expired, kindly fork the project and use your own API keys at https://github.com/thedoggybrad/chat.
 <br>
-This project will be reset due to this reason. But stay tuned for my new project that will utilize the new Gemini Flash model.
-
+This project will be archived due to this reason.
+<br><br>
 <img src="chatsystem/images/chatbot.jpg" alt="LOGO" width="64"  height="64">
 
 # TheDoggyBrad Chat
